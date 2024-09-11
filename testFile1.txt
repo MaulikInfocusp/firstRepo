@@ -1,0 +1,2 @@
+res = requests.get('https://api.github.com/events')
+res_Json = res.json()
